@@ -96,7 +96,7 @@ function convertOperator(keyboardOperator) {
 function add(a, b) {
   return a + b;
 }
-function substract(a, b) {
+function subtract(a, b) {
   return a - b;
 }
 function multiply(a, b) {
@@ -113,7 +113,7 @@ function operate(operator, a, b) {
     case "+":
       return add(a, b);
     case "-":
-      return substract(a, b);
+      return subtract(a, b);
     case "x":
       return multiply(a, b);
     case "/":
